@@ -27,7 +27,7 @@ body {
 .personal {
     color: #007afb;
     position: absolute;
-    top: 142vw;
+    top: 160vw;
     font-size: 2.2vw;
     font-family: 'Montserrat', sans-serif;
     left: 27vw;
@@ -60,7 +60,7 @@ body {
 }
 
 .call {
-    width: 40vw;
+    width: 70vw;
     padding-top: 4vw;
     padding-bottom: 4vw;
     position: absolute;
@@ -102,9 +102,9 @@ a {
 
 .tg {
     position: absolute;
-    top: 103vw;
-    width: 8vw;
-    left: 68vw;
+    top: 138vw;
+    width: 12vw;
+    left: 67vw;
     animation: tg;
     animation-iteration-count: infinite;
     animation-duration: 7s;
@@ -112,9 +112,9 @@ a {
 
 .whatsapp {
     position: absolute;
-    top: 103vw;
-    width: 8vw;
-    left: 78vw;
+    top: 138vw;
+    width: 12vw;
+    left: 52vw;
     animation: wapp;
     animation-iteration-count: infinite;
     animation-duration: 7s;
@@ -122,16 +122,26 @@ a {
 
 .viber {
     position: absolute;
-    top: 103vw;
-    width: 8vw;
-    left: 58vw;
+    top: 138vw;
+    width: 12vw;
+    left: 36vw;
     animation: vb;
+    animation-iteration-count: infinite;
+    animation-duration: 7s;
+}
+
+.vk {
+    position: absolute;
+    top: 138vw;
+    width: 12vw;
+    left: 20vw;
+    animation: vk;
     animation-iteration-count: infinite;
     animation-duration: 7s;
 }
 .slogan {
     position: absolute;
-    top: 138vw;
+    top: 155vw;
     left: 24vw;
     font-family: 'Montserrat', sans-serif;
     font-size: 3vw;
@@ -220,6 +230,29 @@ a {
     }
 }
 
+
+@keyframes vb {
+    0% {
+        transform: rotate(360deg);
+    }
+    10% {
+        transform: rotate(360deg)
+    }
+    30% {
+        transform: rotate(0);
+    }
+    70% {
+        transform: rotate(0);
+    }
+    90% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
 @keyframes wapp {
     0% {
         transform: rotate(0);
@@ -242,7 +275,7 @@ a {
 }
 
 
-@keyframes vb {
+@keyframes vk {
     0% {
         transform: rotate(0);
     }
