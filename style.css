@@ -6,9 +6,15 @@ html {
     color: #007afb;
 }
 
+/* .alldiv {
+    height: 1000%;
+} */
+
 body {
     background: rgb(255, 255, 255);
+    /* border-bottom: none; */
     border: 2vw solid #007afb;
+    
 }
 
 .visit {
@@ -66,7 +72,7 @@ body {
     position: absolute;
     color: #007afb;
     border-radius: 10vw;
-    top: 101vw;
+    top: 104vw;
     left: 14vw;
     border: 1vw solid #007afb;
     font-family: 'Montserrat', sans-serif;
@@ -90,7 +96,7 @@ a {
     border-radius: 10vw;
     color: white;
     font-size: 3.5vw;
-    top: 118vw;
+    top: 120vw;
     left: 14vw;
     border: 1vw solid #007afb;
     font-family: 'Montserrat', sans-serif;
@@ -139,6 +145,7 @@ a {
     animation-iteration-count: infinite;
     animation-duration: 7s;
 }
+
 .slogan {
     position: absolute;
     top: 155vw;
