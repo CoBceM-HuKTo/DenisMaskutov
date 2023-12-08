@@ -37,7 +37,7 @@ body {
 .one {
     position: absolute;
     top: 35vw;
-    font-size: 6vw;
+    font-size: 5vw;
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     left: 14vw;
@@ -45,7 +45,7 @@ body {
 
 .two {
     position: absolute;
-    top: 53vw;
+    top: 50vw;
     font-size: 3vw;
     left: 14vw;
     max-width: 72vw;
